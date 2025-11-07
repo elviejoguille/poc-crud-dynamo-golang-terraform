@@ -31,10 +31,10 @@ resource "aws_api_gateway_resource" "poc_person_resource" {
 }
 
 resource "aws_api_gateway_method" "poc_person_post_method" {
-  rest_api_id   = aws_api_gateway_rest_api.poc_rest_api.id
-  resource_id   = aws_api_gateway_resource.poc_person_resource.id
-  http_method   = "POST"
-  authorization = "NONE"
+  rest_api_id      = aws_api_gateway_rest_api.poc_rest_api.id
+  resource_id      = aws_api_gateway_resource.poc_person_resource.id
+  http_method      = "POST"
+  authorization    = "NONE"
   api_key_required = false
 }
 
@@ -48,10 +48,10 @@ resource "aws_api_gateway_integration" "poc_person_post_integration" {
 }
 
 resource "aws_api_gateway_method" "poc_person_get_method" {
-  rest_api_id   = aws_api_gateway_rest_api.poc_rest_api.id
-  resource_id   = aws_api_gateway_resource.poc_person_resource.id
-  http_method   = "GET"
-  authorization = "NONE"
+  rest_api_id      = aws_api_gateway_rest_api.poc_rest_api.id
+  resource_id      = aws_api_gateway_resource.poc_person_resource.id
+  http_method      = "GET"
+  authorization    = "NONE"
   api_key_required = false
 }
 
@@ -65,10 +65,10 @@ resource "aws_api_gateway_integration" "poc_person_get_integration" {
 }
 
 resource "aws_api_gateway_method" "poc_person_put_method" {
-  rest_api_id   = aws_api_gateway_rest_api.poc_rest_api.id
-  resource_id   = aws_api_gateway_resource.poc_person_resource.id
-  http_method   = "PUT"
-  authorization = "NONE"
+  rest_api_id      = aws_api_gateway_rest_api.poc_rest_api.id
+  resource_id      = aws_api_gateway_resource.poc_person_resource.id
+  http_method      = "PUT"
+  authorization    = "NONE"
   api_key_required = false
 }
 
@@ -82,10 +82,10 @@ resource "aws_api_gateway_integration" "poc_person_put_integration" {
 }
 
 resource "aws_api_gateway_method" "poc_person_delete_method" {
-  rest_api_id   = aws_api_gateway_rest_api.poc_rest_api.id
-  resource_id   = aws_api_gateway_resource.poc_person_resource.id
-  http_method   = "DELETE"
-  authorization = "NONE"
+  rest_api_id      = aws_api_gateway_rest_api.poc_rest_api.id
+  resource_id      = aws_api_gateway_resource.poc_person_resource.id
+  http_method      = "DELETE"
+  authorization    = "NONE"
   api_key_required = false
 }
 
@@ -105,10 +105,10 @@ resource "aws_api_gateway_resource" "poc_animal_resource" {
 }
 
 resource "aws_api_gateway_method" "poc_animal_post_method" {
-  rest_api_id   = aws_api_gateway_rest_api.poc_rest_api.id
-  resource_id   = aws_api_gateway_resource.poc_animal_resource.id
-  http_method   = "POST"
-  authorization = "NONE"
+  rest_api_id      = aws_api_gateway_rest_api.poc_rest_api.id
+  resource_id      = aws_api_gateway_resource.poc_animal_resource.id
+  http_method      = "POST"
+  authorization    = "NONE"
   api_key_required = false
 }
 
@@ -122,10 +122,10 @@ resource "aws_api_gateway_integration" "poc_animal_post_integration" {
 }
 
 resource "aws_api_gateway_method" "poc_animal_get_method" {
-  rest_api_id   = aws_api_gateway_rest_api.poc_rest_api.id
-  resource_id   = aws_api_gateway_resource.poc_animal_resource.id
-  http_method   = "GET"
-  authorization = "NONE"
+  rest_api_id      = aws_api_gateway_rest_api.poc_rest_api.id
+  resource_id      = aws_api_gateway_resource.poc_animal_resource.id
+  http_method      = "GET"
+  authorization    = "NONE"
   api_key_required = false
 }
 
@@ -139,10 +139,10 @@ resource "aws_api_gateway_integration" "poc_animal_get_integration" {
 }
 
 resource "aws_api_gateway_method" "poc_animal_put_method" {
-  rest_api_id   = aws_api_gateway_rest_api.poc_rest_api.id
-  resource_id   = aws_api_gateway_resource.poc_animal_resource.id
-  http_method   = "PUT"
-  authorization = "NONE"
+  rest_api_id      = aws_api_gateway_rest_api.poc_rest_api.id
+  resource_id      = aws_api_gateway_resource.poc_animal_resource.id
+  http_method      = "PUT"
+  authorization    = "NONE"
   api_key_required = false
 }
 
@@ -156,10 +156,10 @@ resource "aws_api_gateway_integration" "poc_animal_put_integration" {
 }
 
 resource "aws_api_gateway_method" "poc_animal_delete_method" {
-  rest_api_id   = aws_api_gateway_rest_api.poc_rest_api.id
-  resource_id   = aws_api_gateway_resource.poc_animal_resource.id
-  http_method   = "DELETE"
-  authorization = "NONE"
+  rest_api_id      = aws_api_gateway_rest_api.poc_rest_api.id
+  resource_id      = aws_api_gateway_resource.poc_animal_resource.id
+  http_method      = "DELETE"
+  authorization    = "NONE"
   api_key_required = false
 }
 
