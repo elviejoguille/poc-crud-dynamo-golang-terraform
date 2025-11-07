@@ -32,3 +32,23 @@ terraform apply
 - [Introduccion a K6](https://www.youtube.com/playlist?list=PL2gu2Qe_CGFmtELbhKS6bJyJNOukP5_AO)
 - [Jmeter Remote Testing](https://www.youtube.com/playlist?list=PL2gu2Qe_CGFlBnBBHxFv2-fJOnGGqkWMr)
 
+
+## Instalando terraform
+
+Instalar un gestor https://github.com/tfutils/tfenv
+
+for linux and ubuntu
+git clone --depth=1 https://github.com/tfutils/tfenv.git ~/.tfenv
+echo 'export PATH="$HOME/.tfenv/bin:$PATH"' >> ~/.zprofile
+source ~/.zprofile
+tfenv
+tfm list
+tfenv install
+tfenv list
+tfenv use 1.13.5
+
+```shell script
+$ terraform -version
+```
+Terraform v1.13.5
+on linux_amd64
